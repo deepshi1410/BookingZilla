@@ -1,0 +1,36 @@
+// components
+// User Navigation
+.user-nav {
+  &__icon-box {
+  }
+  &__icon {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+  &__notification {
+  }
+  &__user {
+  }
+  &__user-photo {
+    height: 2.75rem;
+    border-radius: 50%;
+  }
+  &__user-name {
+  }
+}
+
+// Logo
+.logo {
+  height: 3.25rem;
+}
+// Search
+.search {
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+  }
+  &__button {
+  }
+  &__input {
+  }
+}
