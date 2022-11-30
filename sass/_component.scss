@@ -1,6 +1,7 @@
 // components
 // User Navigation
 .user-nav {
+  background-color: yellowgreen;
   &__icon-box {
   }
   &__icon {
@@ -25,12 +26,40 @@
 }
 // Search
 .search {
+  flex: 0 0 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   &__icon {
     height: 2rem;
     width: 2rem;
+    fill: var(--grey-dark-2);
   }
   &__button {
+    border: none;
+    background-color: var(--grey-light-3);
+    &:focus {
+      outline: none;
+    }
+    &:active {
+      transform: translateY(2px);
+    }
   }
   &__input {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    border: none;
+    width: 90%;
+    border-radius: 100px;
+    padding: 0.7rem 2rem;
+    transition: all 0.2s;
+    background-color: var(--grey-light-2);
+    margin-right: -4rem;
+    &:focus {
+      width: 100%;
+      outline: none;
+      background-color: var(--grey-light-3);
+    }
   }
 }

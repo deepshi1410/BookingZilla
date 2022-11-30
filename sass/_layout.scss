@@ -1,14 +1,17 @@
 .container {
   max-width: 120rem;
   background-color: var(--grey-light-2);
-  margin: 8rem;
+  margin: 8rem auto;
   box-shadow: var(--shadow-dark);
   min-height: 50rem;
 }
 .header {
-  height: 7rem;
+  height: 5rem;
   border-bottom: var(--grey-light-3);
   background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .content {
   display: flex;
