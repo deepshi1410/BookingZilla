@@ -13,6 +13,48 @@
     <title>BookingZilla - An all-in-one booking app</title>
   </head>
   <body>
-    booking
+    <div class="container">
+      <header class="header">
+        <img src="images/logo.png" alt="booking app logo" class="logo" />
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search Hotels"
+          />
+          <button class="search_button">
+            <svg class="search_icon">
+              <use xlink:href="images/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+        </nav>
+        <div class="user-nav__user">
+          <img
+            src="images/user.jpeg"
+            alt="User Photo"
+            class="user-nav__user-photo"
+          />
+          <span class="user-nav__user-name">Deepshi</span>
+        </div>
+      </header>
+      <div class="content">
+        <nav class="sidebar">side bar</nav>
+        <main class="hotel-view">hotel view</main>
+      </div>
+    </div>
   </body>
 </html>
