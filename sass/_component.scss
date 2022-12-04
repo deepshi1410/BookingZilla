@@ -98,3 +98,26 @@
     }
   }
 }
+
+// SIDE NAVIGATION
+.side-nav {
+  height: 50rem;
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__link {
+  }
+  &__icon {
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+}
+
+// LEGAL TEXT
+.legal {
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 2.3rem;
+}

@@ -124,6 +124,21 @@ body {
     .search__input:focus + .search__input__button {
       background-color: var(--grey-light-3); }
 
+.side-nav {
+  height: 50rem; }
+  .side-nav__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .side-nav__icon {
+    height: 1.75rem;
+    width: 1.75rem; }
+
+.legal {
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 2.3rem; }
+
 .container {
   max-width: 120rem;
   background-color: var(--grey-light-2);
