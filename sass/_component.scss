@@ -162,3 +162,43 @@
   text-align: center;
   padding: 2.3rem;
 }
+
+// GALLERY
+.gallery {
+  display: flex;
+  &__item {
+  }
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
+
+// overview section
+.overview {
+  display: flex;
+  &__rating_stars {
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+  }
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+  }
+  &__rating_stars {
+    margin-right: auto;
+  }
+  &__rating {
+  }
+  &__rating-average {
+  }
+  &__rating-count {
+  }
+  &__heading {
+  }
+  &__location {
+  }
+}
